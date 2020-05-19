@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="6934" started-at="2020-05-19T11:40:37Z" finished-at="2020-05-19T11:40:44Z">
+  <suite name="Suite" duration-ms="7702" started-at="2020-05-19T13:27:11Z" finished-at="2020-05-19T13:27:18Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="6934" started-at="2020-05-19T11:40:37Z" finished-at="2020-05-19T11:40:44Z">
+    <test name="Test" duration-ms="7702" started-at="2020-05-19T13:27:11Z" finished-at="2020-05-19T13:27:18Z">
       <class name="BuddyTool.POCBuddy.AppTest">
-        <test-method status="PASS" signature="testSetUp()[pri:0, instance:BuddyTool.POCBuddy.AppTest@f67ac7]" name="testSetUp" is-config="true" duration-ms="4840" started-at="2020-05-19T11:40:37Z" finished-at="2020-05-19T11:40:42Z">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:BuddyTool.POCBuddy.AppTest@f67ac7]" name="testSetUp" is-config="true" duration-ms="3839" started-at="2020-05-19T13:27:11Z" finished-at="2020-05-19T13:27:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetUp -->
-        <test-method status="PASS" signature="testApp()[pri:0, instance:BuddyTool.POCBuddy.AppTest@f67ac7]" name="testApp" duration-ms="6" started-at="2020-05-19T11:40:42Z" finished-at="2020-05-19T11:40:42Z">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:BuddyTool.POCBuddy.AppTest@f67ac7]" name="testApp" duration-ms="7" started-at="2020-05-19T13:27:14Z" finished-at="2020-05-19T13:27:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testApp -->
-        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:BuddyTool.POCBuddy.AppTest@f67ac7]" name="verifyGooglePageTittle" duration-ms="1240" started-at="2020-05-19T11:40:42Z" finished-at="2020-05-19T11:40:43Z">
+        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:BuddyTool.POCBuddy.AppTest@f67ac7]" name="verifyGooglePageTittle" duration-ms="2739" started-at="2020-05-19T13:27:15Z" finished-at="2020-05-19T13:27:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGooglePageTittle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:BuddyTool.POCBuddy.AppTest@f67ac7]" name="tearDown" is-config="true" duration-ms="827" started-at="2020-05-19T11:40:43Z" finished-at="2020-05-19T11:40:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BuddyTool.POCBuddy.AppTest@f67ac7]" name="tearDown" is-config="true" duration-ms="1099" started-at="2020-05-19T13:27:17Z" finished-at="2020-05-19T13:27:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
