@@ -3,27 +3,48 @@ package BuddyTool.POCBuddy;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 
-/**
- * Unit test for simple App.
- */
-public class AppTest
-{
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+
+public class AppTest {
+	
+	public AppTest( String testName )
     {
     }
-
-    /**
-     * Rigourous Test :-)
-     */
-    @Test
+	
+	@Test
 	public void testApp()
     {
         AssertJUnit.assertTrue( true );
         System.out.println("inside the code");
+        
+        
     }
+	
+	private WebDriver driver; 
+	String appURL = "http://google.com";
+
+	@BeforeClass
+	public void testSetUp() {
+		
+		driver = new ChromeDriver();
+	}
+	
+	@Test
+	public void verifyGooglePageTittle() {
+		driver.navigate().to(appURL);
+		String getTitle = driver.getTitle();
+		Assert.assertEquals(getTitle, "Google");
+	}
+	
+	@AfterClass
+	public void tearDown() {
+		driver.quit();
+	}
+	
 }
