@@ -31,7 +31,7 @@ public class AppTest {
 
 	@BeforeClass
 	public void testSetUp() {
-		
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Buddy\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
 	}
 	
