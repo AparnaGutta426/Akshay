@@ -23,7 +23,8 @@ public class AppTest {
         AssertJUnit.assertTrue( true );
         System.out.println("inside the code of demoBuddy");
         System.out.println("Development change 1");
-        System.out.println("Development change ");
+        System.out.println("Development change 2");
+        System.out.println("Development change 3");
         
     }
 	
