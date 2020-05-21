@@ -25,6 +25,14 @@ public class AppTest {
         
         
     }
+	@Test
+	public void devCode()
+    {
+        AssertJUnit.assertTrue( true );
+        System.out.println("inside the dev code");
+        
+        
+    }
 	
 	private WebDriver driver; 
 	String appURL = "http://google.com";
