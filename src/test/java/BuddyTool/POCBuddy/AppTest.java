@@ -21,8 +21,15 @@ public class AppTest {
 	public void testApp()
     {
         AssertJUnit.assertTrue( true );
-        System.out.println("inside the code of demoBuddy");
-        System.out.println("Development change 1");
+        System.out.println("inside the test code");
+        
+        
+    }
+	@Test
+	public void devCode()
+    {
+        AssertJUnit.assertTrue( true );
+        System.out.println("inside the dev code");
         
         
     }
@@ -40,6 +47,7 @@ public class AppTest {
 	
 	@Test
 	public void verifyGooglePageTittle() {
+		System.out.println("inside verify Google Title");
 		//driver.navigate().to(appURL);
 		//String getTitle = driver.getTitle();
 		//Assert.assertEquals(getTitle, "Google");
@@ -48,6 +56,7 @@ public class AppTest {
 	
 	@AfterClass
 	public void tearDown() {
+		System.out.println("Closing Browser");
 		//driver.quit();
 	}
 	
