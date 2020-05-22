@@ -21,7 +21,7 @@ public class AppTest {
 	public void testApp()
     {
         AssertJUnit.assertTrue( true );
-        System.out.println("inside the test code");
+        System.out.println("inside the test code.");
         
         
     }
