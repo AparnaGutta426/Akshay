@@ -10,6 +10,7 @@
     <classes>
       <class name="BuddyTool.POCBuddy.AppTest">
         <methods>
+          <include name="devCode"/>
           <include name="testSetUp"/>
           <include name="testApp"/>
           <include name="verifyGooglePageTittle"/>
