@@ -45,8 +45,8 @@ public class AppTest {
 	@BeforeClass
 	public void testSetUp() {
 		//System.setProperty("webdriver.chrome.driver","C:\\Users\\Buddy\\Downloads\\chromedriver_win32\\chromedriver.exe");
-		//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/Chrome/chromedriver.exe");
-		System.out.println(System.getProperty("user.dir")+"/Chrome/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/Chrome/chromedriver.exe");
+		//System.out.println(System.getProperty("user.dir")+"/Chrome/chromedriver.exe");
 		//WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 	}
