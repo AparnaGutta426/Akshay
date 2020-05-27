@@ -6,16 +6,4 @@
       <class name="BuddyTool.POCBuddy.AppTest"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test(failed)" parallel="tests">
-    <classes>
-      <class name="BuddyTool.POCBuddy.AppTest">
-        <methods>
-          <include name="devCode"/>
-          <include name="testSetUp"/>
-          <include name="testApp"/>
-          <include name="verifyGooglePageTittle"/>
-        </methods>
-      </class> <!-- BuddyTool.POCBuddy.AppTest -->
-    </classes>
-  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
