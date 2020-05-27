@@ -46,7 +46,7 @@ public class AppTest {
 		//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/Chrome/chromedriver.exe");
 		//System.out.println(System.getProperty("user.dir")+"/Chrome/chromedriver.exe");
 		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		//driver = new ChromeDriver();
 	}
 	
 	@Test
