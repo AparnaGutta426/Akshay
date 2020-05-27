@@ -46,16 +46,16 @@ public class AppTest {
 		//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/Chrome/chromedriver.exe");
 		//System.out.println(System.getProperty("user.dir")+"/Chrome/chromedriver.exe");
 		WebDriverManager.chromedriver().setup();
-		//driver = new ChromeDriver();
+		driver = new ChromeDriver();
 	}
 	
 	@Test
 	public void verifyGooglePageTittle() {
 		System.out.println("inside verify Google Title");
-		//driver.navigate().to(appURL);
-		//String getTitle = driver.getTitle();
+		driver.navigate().to(appURL);
+		String getTitle = driver.getTitle();
 		//Assert.assertEquals(getTitle, "Google");
-		//System.out.println("The title is "+getTitle);
+		System.out.println("The title is "+getTitle);
 	}
 	
 	@AfterClass
