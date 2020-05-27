@@ -33,6 +33,7 @@ public class AppTest {
     {
         AssertJUnit.assertTrue( true );
         System.out.println("inside the dev code");
+        System.out.println("Second line");
         
         
     }
